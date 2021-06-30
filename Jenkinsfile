@@ -7,12 +7,6 @@ pipeline {
     }      
 
     stages {
-        stage('Build') {
-            // build stage
-        }
-        stage('Test') {
-           // test stage
-        }
         stage('Publish') {
             steps {
                 bat 'mvnw package'
