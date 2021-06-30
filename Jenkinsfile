@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Publish') {
             steps {
-                bat '.\mvnw package'
+                bat 'mvnw package'
             }
             post {
                 success {
