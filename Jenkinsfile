@@ -15,7 +15,7 @@ pipeline {
                 success {
                     archiveArtifacts 'target/*.jar'
                     bat 'aws configure set region us-east-1'
-                    bat 'aws s3 cp ./target/jdbnk-policy-2.5.1.jar s3://jenkin-jars/jdbnk-policy-2.5.1.jar'
+                    bat 'aws s3 cp target/jdbnk-0.0.1-SNAPSHOT.jar s3://jenkin-jars/jdbnk-auth.jar'
                 }
             }
         }
