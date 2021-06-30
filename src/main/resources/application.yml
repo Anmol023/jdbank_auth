@@ -1,0 +1,14 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:8080@cluster0.pwq1j.mongodb.net/jdbnk?retryWrites=true&w=majority
+email:
+  region: us-east-1
+  sender: anmolgupta023051998@gmail.com
+server:
+  port: 5000
+amazonProperties:
+  endpointUrl: https://s3.us-east-1.amazonaws.com
+  accessKey: AKIA444KKQ73E5T4ZXVA
+  secretKey: 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
+  bucketName: customer-documentss
